@@ -23,7 +23,7 @@ const int pins2[] = {1, 2, 3};
 // If standard ESP32-WROOM-32
 #ifdef ESP32
 const int pins1[] = {GPIO_NUM_19, GPIO_NUM_18, GPIO_NUM_5, GPIO_NUM_17, GPIO_NUM_16, GPIO_NUM_4, GPIO_NUM_0, GPIO_NUM_2};
-const int pins2[] = {GPIO_NUM_13, GPIO_NUM_12, GPIO_NUM_14, GPIO_NUM_27, GPIO_NUM_26, GPIO_NUM_25, GPIO_NUM_33, GPIO_NUM_32};
+const int pins2[] = {GPIO_NUM_32, GPIO_NUM_33, GPIO_NUM_25, GPIO_NUM_26, GPIO_NUM_27, GPIO_NUM_14, GPIO_NUM_12, GPIO_NUM_13};
 #endif
 
 void set_pins(uint8_t value) {
